@@ -9,7 +9,7 @@
 1. PyTorch MLP (Deep Learning)
 2. XGBoost (Machine Learning)
 
-## MLP
+## 预处理
 
 1. EDA
 
@@ -38,3 +38,15 @@
 - 模型对比
 
 在小数据回归的情况中，浅层MLP提供的线性回归收益有限。
+
+
+
+## Deep Learning Approach (PyTorch)
+
+- Log1p target transformation
+- One-hot encoding
+- MLP (32 hidden units)
+- L2 regularization
+- 5-fold cross validation
+
+Public LB Score: 0.12862
